@@ -21,7 +21,7 @@ with pd.ExcelWriter(output_file, engine='xlsxwriter') as writer:
     # Access the XlsxWriter workbook and worksheet objects
     workbook = writer.book
     worksheet = writer.sheets['Sheet1']
-    #
+
     # # Define cell formats
     # number_format = workbook.add_format({'num_format': '#,##0.00'})  # For formatting numbers with two decimal places
     # bold_format = workbook.add_format({'bold': True})
